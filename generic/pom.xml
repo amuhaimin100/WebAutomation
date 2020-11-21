@@ -18,65 +18,56 @@
 
 
     <dependencies>
-    <!-- https://mvnrepository.com/artifact/mysql/mysql-connector-java -->
-    <dependency>
-        <groupId>mysql</groupId>
-        <artifactId>mysql-connector-java</artifactId>
+        <!-- mysql-connector-java -->
+        <dependency>
+            <groupId>mysql</groupId>
+            <artifactId>mysql-connector-java</artifactId>
+        </dependency>
 
-    </dependency>
+        <!-- selenium-java -->
+        <dependency>
+            <groupId>org.seleniumhq.selenium</groupId>
+            <artifactId>selenium-java</artifactId>
+        </dependency>
 
-    <!-- https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-java -->
-    <dependency>
-        <groupId>org.seleniumhq.selenium</groupId>
-        <artifactId>selenium-java</artifactId>
+        <!-- testng -->
+        <dependency>
+            <groupId>org.testng</groupId>
+            <artifactId>testng</artifactId>
+        </dependency>
 
-    </dependency>
+        <!-- log4j -->
+        <dependency>
+            <groupId>log4j</groupId>
+            <artifactId>log4j</artifactId>
+        </dependency>
 
-    <!-- https://mvnrepository.com/artifact/org.testng/testng -->
-    <dependency>
-        <groupId>org.testng</groupId>
-        <artifactId>testng</artifactId>
+        <!--mongo db-->
+        <dependency>
+            <groupId>org.mongodb</groupId>
+            <artifactId>mongodb-driver</artifactId>
+        </dependency>
 
-    </dependency>
+        <!--Extent report-->
+        <dependency>
+            <groupId>com.aventstack</groupId>
+            <artifactId>extentreports</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>com.relevantcodes</groupId>
+            <artifactId>extentreports</artifactId>
+        </dependency>
 
-    <!-- https://mvnrepository.com/artifact/log4j/log4j -->
-    <dependency>
-        <groupId>log4j</groupId>
-        <artifactId>log4j</artifactId>
+        <dependency>
+            <groupId>commons-io</groupId>
+            <artifactId>commons-io</artifactId>
+        </dependency>
 
-    </dependency>
-
-    <dependency>
-        <groupId>org.mongodb</groupId>
-        <artifactId>mongodb-driver</artifactId>
-
-    </dependency>
-
-    <!--Extent report-->
-    <dependency>
-        <groupId>com.aventstack</groupId>
-        <artifactId>extentreports</artifactId>
-
-    </dependency>
-    <dependency>
-        <groupId>com.relevantcodes</groupId>
-        <artifactId>extentreports</artifactId>
-
-    </dependency>
-
-    <dependency>
-        <groupId>commons-io</groupId>
-        <artifactId>commons-io</artifactId>
-
-    </dependency>
-
-    <!--Excel Reader-->
-    <dependency>
-        <groupId>org.apache.poi</groupId>
-        <artifactId>poi</artifactId>
-
-    </dependency>
+        <!--Excel Reader-->
+        <dependency>
+            <groupId>org.apache.poi</groupId>
+            <artifactId>poi</artifactId>
+        </dependency>
 
     </dependencies>
-
 </project>

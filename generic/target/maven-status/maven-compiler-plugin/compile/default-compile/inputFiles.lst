@@ -1,1 +1,3 @@
-/Users/am/IdeaProjects/WebAutomation/generic/src/main/java/com/peoplentech/webautomation/TestBase.java
+/Users/am/IdeaProjects/WebAutomation/generic/src/main/java/com/base/TestBase.java
+/Users/am/IdeaProjects/WebAutomation/generic/src/main/java/com/report/ExtentManager.java
+/Users/am/IdeaProjects/WebAutomation/generic/src/main/java/com/report/ExtentTestManager.java

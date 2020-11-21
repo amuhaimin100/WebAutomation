@@ -93,7 +93,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">1 method,   1 passed</span>
+                    <span class="method-stats">3 methods,   3 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -105,6 +105,16 @@
                       <span>
                         <img src="passed.png" width="3%"/>
                         <a href="#" panel-name="suite-Selenium_Test_Suite" title="com.ebaytest.HomePageValidation" class="method navigator-link" hash-for-method="validateUserBeingAbleToTypeOnSearchBar">validateUserBeingAbleToTypeOnSearchBar</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Selenium_Test_Suite" title="com.ebaytest.HomePageValidation" class="method navigator-link" hash-for-method="validateUserCanClickOnRegister">validateUserCanClickOnRegister</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Selenium_Test_Suite" title="com.ebaytest.HomePageValidation" class="method navigator-link" hash-for-method="validateUserIsAbleToClickOnDailyDeals">validateUserIsAbleToClickOnDailyDeals</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-Selenium_Test_Suite -->
@@ -130,6 +140,20 @@
                   <a name="validateUserBeingAbleToTypeOnSearchBar">
                   </a> <!-- validateUserBeingAbleToTypeOnSearchBar -->
                   <span class="method-name">validateUserBeingAbleToTypeOnSearchBar</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="validateUserCanClickOnRegister">
+                  </a> <!-- validateUserCanClickOnRegister -->
+                  <span class="method-name">validateUserCanClickOnRegister</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="validateUserIsAbleToClickOnDailyDeals">
+                  </a> <!-- validateUserIsAbleToClickOnDailyDeals -->
+                  <span class="method-name">validateUserIsAbleToClickOnDailyDeals</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -192,16 +216,24 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(1);
+data.addRows(3);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'validateUserBeingAbleToTypeOnSearchBar')
+data.setCell(0, 1, 'validateUserIsAbleToClickOnDailyDeals')
 data.setCell(0, 2, 'com.ebaytest.HomePageValidation')
-data.setCell(0, 3, 299);
+data.setCell(0, 3, 2120);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'validateUserCanClickOnRegister')
+data.setCell(1, 2, 'com.ebaytest.HomePageValidation')
+data.setCell(1, 3, 1911);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'validateUserBeingAbleToTypeOnSearchBar')
+data.setCell(2, 2, 'com.ebaytest.HomePageValidation')
+data.setCell(2, 3, 219);
 window.suiteTableData['Selenium_Test_Suite']= { tableData: data, tableDiv: 'times-div-Selenium_Test_Suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 299 ms</span>
+              <span class="suite-total-time">Total running time: 4 seconds</span>
               <div id="times-div-Selenium_Test_Suite">
               </div> <!-- times-div-Selenium_Test_Suite -->
             </div> <!-- times-div -->
@@ -228,14 +260,74 @@ return data;
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
               <div class="chronological-class-name">com.ebaytest.HomePageValidation</div> <!-- chronological-class-name -->
+              <div class="configuration-suite before">
+                <span class="method-name">extentSetup(org.testng.TestRunner@5b275174)</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-suite before -->
               <div class="configuration-method before">
                 <span class="method-name">setupDriver(mac, https://www.ebay.com, chrome, false, 77.0, saucelabs)</span>
-                <span class="method-start">0 ms</span>
+                <span class="method-start">454 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">startExtent(public void com.ebaytest.HomePageValidation.validateUserBeingAbleToTypeOnSearchBar())</span>
+                <span class="method-start">5021 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">validateUserBeingAbleToTypeOnSearchBar</span>
-                <span class="method-start">3890 ms</span>
+                <span class="method-start">5026 ms</span>
               </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterEachTestMethod([TestResult name=validateUserBeingAbleToTypeOnSearchBar status=SUCCESS method=HomePageValidation.val...)</span>
+                <span class="method-start">5246 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">cleanUp</span>
+                <span class="method-start">5490 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setupDriver(mac, https://www.ebay.com, chrome, false, 77.0, saucelabs)</span>
+                <span class="method-start">5625 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">startExtent(public void com.ebaytest.HomePageValidation.validateUserCanClickOnRegister())</span>
+                <span class="method-start">9915 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">validateUserCanClickOnRegister</span>
+                <span class="method-start">9915 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterEachTestMethod([TestResult name=validateUserCanClickOnRegister status=SUCCESS method=HomePageValidation.validateUse...)</span>
+                <span class="method-start">11827 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">cleanUp</span>
+                <span class="method-start">11883 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setupDriver(mac, https://www.ebay.com, chrome, false, 77.0, saucelabs)</span>
+                <span class="method-start">12011 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">startExtent(public void com.ebaytest.HomePageValidation.validateUserIsAbleToClickOnDailyDeals())</span>
+                <span class="method-start">15143 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">validateUserIsAbleToClickOnDailyDeals</span>
+                <span class="method-start">15143 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterEachTestMethod([TestResult name=validateUserIsAbleToClickOnDailyDeals status=SUCCESS method=HomePageValidation.vali...)</span>
+                <span class="method-start">17263 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">cleanUp</span>
+                <span class="method-start">17296 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-suite after">
+                <span class="method-name">generateReport</span>
+                <span class="method-start">17452 ms</span>
+              </div> <!-- configuration-suite after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
       </div> <!-- main-panel-root -->
